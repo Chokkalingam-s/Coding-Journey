@@ -24,8 +24,7 @@ public class SecondLargestSmallest {
     }
     static private int secondLargest(int[] arr, int n)
     {
-        if(n<2)
-        return -1;
+        if(n<2) return -1;
         int large = Integer.MIN_VALUE;
         int second_large = Integer.MIN_VALUE;
         int i;
