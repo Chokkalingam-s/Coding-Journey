@@ -1,5 +1,4 @@
 public class NumberOnceOtherTwice136 {
-
     public int singleNumber(int[] nums) {
 
         int ans=0;
