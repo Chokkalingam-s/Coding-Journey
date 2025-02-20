@@ -15,7 +15,7 @@ class DecimalToBinary
     }
 
     public static void main(String[] args) {
-        int decimalNumber = 10;
+        int decimalNumber = 11;
         long binaryNumber = decimalToBinary(decimalNumber);
         System.out.println("Binary equivalent of " + decimalNumber + " is " + binaryNumber);
     }

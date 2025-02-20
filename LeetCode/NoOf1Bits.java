@@ -1,9 +1,11 @@
 class NoOf1Bits
 {   
+//Brian Kernighan’s Algorithm
     public static int HammingWeight(int n) {
         int count = 0;
         while(n != 0) {
             n = n & (n-1);
+            //n & (n-1) removes that 1 while keeping all other bits unchanged.
             count++;
         }
         return count;

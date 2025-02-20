@@ -31,7 +31,7 @@ public class IsSubsequence392 {
 
     public static void main(String[] args) {
         String s = "abc";
-        String t = "ahbgdc";
+        String t = "ahbgabc";
         System.out.println(isSubsequence(s, t)); 
     }
 }
